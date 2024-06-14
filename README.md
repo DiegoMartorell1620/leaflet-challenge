@@ -26,13 +26,7 @@ Sources:
 
     legend.onAdd = function(map) {
         "let div = L.DomUtil.create('div', 'legend');
-        div.innerHTML = '<h4></h4>' +
-            '<p><span class="legend-color" style="background-color: #008000"></span> -10-10</p>' +
-            '<p><span class="legend-color" style="background-color: #FFFF00"></span> 10-30</p>' +
-            '<p><span class="legend-color" style="background-color: #FFA500"></span> 30-50</p>' +
-            '<p><span class="legend-color" style="background-color: #FF8C00"></span> 50-70</p>' +
-            '<p><span class="legend-color" style="background-color: #FF4500"></span> 70-90</p>' +
-            '<p><span class="legend-color" style="background-color: #FF0000"></span> 90+</p>';
+        div.innerHTML =;
         return div;
     };
 
